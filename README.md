@@ -1,4 +1,4 @@
-# YouTube Comment Analysis Project
+# 🎥 YouTube Comment Analysis Project
 
 ## Overview
 
@@ -6,14 +6,14 @@ This project analyzes YouTube video comments to understand comment distribution,
 
 ## Dataset
 
-- **Source**: "YouTube-Spam-Dataset.csv"
+- **Source**: `"YouTube-Spam-Dataset.csv"`
 - **Columns**:
-  - `COMMENT_ID`: Unique identifier for each comment.
-  - `AUTHOR`: Name of the comment's author.
-  - `DATE`: Date when the comment was posted.
-  - `CONTENT`: Text content of the comment.
-  - `CLASS`: Spam label (1 for spam, 0 for non-spam).
-  - `VIDEO_NAME`: Video associated with the comment.
+  - **`COMMENT_ID`**: Unique identifier for each comment.
+  - **`AUTHOR`**: Name of the comment's author.
+  - **`DATE`**: Date when the comment was posted.
+  - **`CONTENT`**: Text content of the comment.
+  - **`CLASS`**: Spam label (1 for spam, 0 for non-spam).
+  - **`VIDEO_NAME`**: Video associated with the comment.
 
 ## Project Structure
 
@@ -45,28 +45,24 @@ Install the required libraries:
 ```bash
 pip install pandas numpy seaborn matplotlib plotly scikit-learn wordcloud textblob streamlit
 
+
+
 ## Usage
-Run the EDA and Model Building:
 
-Execute the Python script to perform EDA and build the spam classifier.
-Outputs include visualizations and model performance metrics.
-Run the Streamlit App:
+Run the EDA and Model Building
 
-Results
+Prepare the Data: Load and preprocess the dataset by running the preprocessing and EDA scripts.
+
+Train the Model: Execute the model training script to train and evaluate the spam detection model.
+
+## Results
+
 Model Accuracy: High accuracy in spam vs. non-spam classification.
+
 Insights:
-Distribution of comments across videos/authors reveals engagement patterns.
-Sentiment analysis shows audience reaction.
-Effective spam detection model useful for moderation.
-Future Work
-Improve model accuracy with different algorithms and hyperparameters.
-Explore additional features and advanced NLP techniques like BERT.
-Contributors
-Saravanan G - GitHub
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-vbnet
-Copy code
+Distribution of Comments: Shows engagement patterns across videos and authors.
 
-This tag is designed to be included directly in your GitHub repository or project documentat
+Sentiment Analysis: Provides insights into audience reactions.
+
+Spam Detection: Effective for moderating comments.
