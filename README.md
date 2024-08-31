@@ -44,3 +44,29 @@ Install the required libraries:
 
 ```bash
 pip install pandas numpy seaborn matplotlib plotly scikit-learn wordcloud textblob streamlit
+
+## Usage
+Run the EDA and Model Building:
+
+Execute the Python script to perform EDA and build the spam classifier.
+Outputs include visualizations and model performance metrics.
+Run the Streamlit App:
+
+Results
+Model Accuracy: High accuracy in spam vs. non-spam classification.
+Insights:
+Distribution of comments across videos/authors reveals engagement patterns.
+Sentiment analysis shows audience reaction.
+Effective spam detection model useful for moderation.
+Future Work
+Improve model accuracy with different algorithms and hyperparameters.
+Explore additional features and advanced NLP techniques like BERT.
+Contributors
+Saravanan G - GitHub
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+vbnet
+Copy code
+
+This tag is designed to be included directly in your GitHub repository or project documentat
